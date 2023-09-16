@@ -16,6 +16,7 @@
 
 <body>
     <div class="main-container">
+        <!-- Début en-tête de page -->
         <header>
             <div id="logo">                    
                 <img src="images/logo/Booki.png" class="logo">
@@ -27,7 +28,54 @@
                 </ul>
             </nav>
         </header>
+        <!-- Fin en-tête de page -->
         <main>
+            <!-- Début première div majeure -->
+            <div class="recherche-and-filtres">
+                <h2 class="section-title">Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p>En plein centre-ville ou en pleine nature</p>
+                <form method="get" action="">
+                    <div class="map-marker element-formulaire">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    </div>
+                    <input value="Marseille, France" type="text" name="lieu" class="element-formulaire card-title" />
+                    <button class="element-formulaire card-title" type="submit">Rechercher</button>
+                </form>
+                <div class="selection-filtres">
+                    <h3 class="card-title">Filtres</h3>
+                    <div class="element-filtres">
+                        <a href="#">
+                            <i class="fa-solid fa-ticket icone-filtres" aria-hidden="true"></i>
+                            <h3 class="card-title">Économique</h3>
+                        </a>
+                    </div>
+                    <div class="element-filtres">
+                        <a href="#">
+                            <i class="fa-solid fa-male icone-filtres" aria-hidden="true"></i>
+                            <h3 class="card-title">Familial</h3>
+                        </a>
+                    </div>
+                    <div class="element-filtres">
+                        <a href="#">
+                            <i class="fa-solid fa-heart icone-filtres" aria-hidden="true"></i>
+                            <h3 class="card-title">Romantique</h3>
+                        </a>
+                    </div>
+                    <div class="element-filtres">
+                        <a href="#">
+                            <i class="fa-solid fa-fire icone-filtres" aria-hidden="true"></i>
+                            <h3 class="card-title">Nos pépites</h3>
+                        </a>
+                    </div>
+                </div>
+                <div class="info">
+                    <div class="info-circle">                        
+                        <i class="fa fa-info" aria-hidden="true"></i>
+                    </div>
+                    <p>Plus de 500 logements sont disponibles dans cette ville</p>
+                </div>
+            </div>
+            <!-- Fin première div majeure -->
             <div class="hebergements-and-populaires">
                 <section class="hebergements">
 

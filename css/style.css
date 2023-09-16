@@ -1,11 +1,12 @@
-/****** Début ajouté ***********/
+/****** Début ajouté body ***********/
+/****** Début ajouté header ***********/
 
 header
 {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 #logo {
@@ -44,7 +45,92 @@ nav a:hover
     border-top: 3px solid var(--main-color);
 }
 
-/****** Fin ajouté ***********/
+/****** Fin ajouté header ***********/
+/****** Début ajouté première div majeure ***********/
+
+.recherche-and-filtres {
+    margin-bottom: 50px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    margin-block: 25px;
+}
+
+.element-formulaire {
+    padding: 15px;
+}
+
+form .map-marker {
+    background-color: var(--main-bg-color);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+form input {
+    border: 1px solid var(--main-bg-color);
+    font-weight: 700;
+}
+
+form button {
+    background-color: var(--main-color);
+    color: white;
+    border: 0px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-weight: 700;
+}
+
+
+form button:hover{
+    background-color: blue;
+    color: white;
+    border: 0px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.selection-filtres {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.element-filtres a {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    padding-inline: 20px;
+    border: 2px solid lightgray;
+    border-radius: 30px;
+}
+
+.element-filtres a:hover {
+    background-color: var(--filter-bg-color);
+    cursor: default;
+}
+
+.icone-filtres {
+    margin-right: 10px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+}
+
+.fa-info {
+    color: var(--main-color);
+    margin-right: 10px;
+    padding-block: 5px;
+    padding-inline: 10px;
+    border: 1px solid var(--main-bg-color);
+    border-radius: 14px;
+}
+
+/****** Fin ajouté première div majeure ***********/
+/****** Fin ajouté body ***********/
 
 
 
