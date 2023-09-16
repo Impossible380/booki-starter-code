@@ -1,0 +1,10 @@
+/****** Hebergements ***********/
+.hebergements {
+    width: 65%;
+}
+
+@media (max-width: 1024px) {
+    .hebergements {
+        width: 100%;
+    }
+}

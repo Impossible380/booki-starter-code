@@ -1,0 +1,43 @@
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 50px;
+}
+
+#logo {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+#logo img {
+    width: 50%;
+    height: 50%;
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-left: 100px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-top: 15px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: var(--main-color);
+    border-top: 3px solid var(--main-color);
+}
