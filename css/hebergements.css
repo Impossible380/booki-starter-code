@@ -4,17 +4,23 @@
 }
 
 .hebergements-title {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
-.hebergements-cards-half {
+.hebergements-cards {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .hebergements-cards .card {
     width: 220px;
     margin-top: 33px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     /* margin-inline: 20px; */
 }
 
