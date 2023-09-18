@@ -3,6 +3,45 @@
     width: 65%;
 }
 
+.hebergements-title {
+    align-items: center;
+}
+
+.hebergements-cards-half {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hebergements-cards .card {
+    width: 220px;
+    margin-top: 33px;
+    /* margin-inline: 20px; */
+}
+
+.hebergements-cards img {
+    width: 100%;
+    height: 116px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.hebergements-cards .card-content {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.herbegements-cards .card-title {
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+.hebergements-cards .card-subtitle {
+    margin: 0;
+}
+
 @media (max-width: 1024px) {
     .hebergements {
         width: 100%;
