@@ -1,6 +1,7 @@
 @import url(global.css);
 @import url(header.css);
-@import url(filtres_et_recherches.css);
+@import url(recherches_et_filtres.css);
 @import url(hebergements.css);
 @import url(populaires.css);
 @import url(cards.css);
+@import url(activites.css);

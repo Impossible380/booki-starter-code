@@ -7,6 +7,7 @@
     --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
     --filter-bg-color: #DEEBFF;
+    --card-radius: 20px;
 }
 
 body {
@@ -36,19 +37,9 @@ a {
     font-size: 22px;
 }
 
-.card {
-    background-color: white;
-    border-radius: 20px;
-    padding: 5px;
-    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
-}
-
-.card img {
-    object-fit: cover;
-}
-
-.card-title {
-    font-size: 16px;
+.section-subtitle {
+    margin-block: 20px;
+    font-size: 18px;
 }
 
 .euro {
@@ -67,7 +58,7 @@ a {
 
 .hebergements-and-populaires section {
     background-color: var(--main-bg-color);
-    border-radius: 20px;
+    border-radius: var(--card-radius);
     padding: 30px;
     box-sizing: border-box;
 }
@@ -83,7 +74,7 @@ a {
     }
 }
 
-/* Small devices (phones, less than 768px) */
+/* Small devices (phones, less/equal than 768px) */
 @media (max-width: 768px) {
     /* ... */
 }

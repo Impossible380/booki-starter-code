@@ -1,0 +1,16 @@
+/****** Activités ***********/
+.activites {
+    width: 100%;
+    margin-block: 50px;
+}
+
+.activites-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.activites-cards {
+    display: flex;
+    justify-content: space-between;
+}

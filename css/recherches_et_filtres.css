@@ -1,15 +1,20 @@
 .recherche-and-filtres {
-    margin-bottom: 50px;
+    margin-block: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 form {
     display: flex;
     align-items: center;
-    margin-block: 25px;
+    margin-block: 15px;
 }
 
 .element-formulaire {
     padding: 15px;
+    font-weight: 700;
+    font-size: 18px;
 }
 
 form .map-marker {
@@ -20,7 +25,7 @@ form .map-marker {
 
 form input {
     border: 1px solid var(--main-bg-color);
-    font-weight: 700;
+    text-align: center;
 }
 
 form button {
@@ -29,7 +34,6 @@ form button {
     border: 0px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-    font-weight: 700;
 }
 
 
@@ -44,7 +48,7 @@ form button:hover{
 .selection-filtres {
     display: flex;
     align-items: center;
-    margin-bottom: 25px;
+    margin-block: 15px;
 }
 
 .element-filtres a {
@@ -52,13 +56,19 @@ form button:hover{
     align-items: center;
     margin-left: 20px;
     padding-inline: 20px;
+    height: 46px;
     border: 2px solid lightgray;
-    border-radius: 30px;
+    border-radius: 25px;
+    font-size: 22px;
 }
 
 .element-filtres a:hover {
     background-color: var(--filter-bg-color);
     cursor: default;
+}
+
+.element-filtres a h3 {
+    font-size: 17px;
 }
 
 .icone-filtres {
