@@ -12,5 +12,10 @@
 
 .activites-cards {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+}
+
+.activites-cards a {
+    width: 22%;
 }

@@ -11,8 +11,13 @@
 
 .hebergements-cards {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+.hebergements-cards a {
+    width: 30%;
 }
 
 @media (max-width: 1024px) {
