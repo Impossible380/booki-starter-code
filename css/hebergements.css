@@ -25,3 +25,14 @@
         width: 100%;
     }
 }
+
+@media (max-width: 768px) {
+    .hebergements {
+        background-color: white;
+    }
+
+    .hebergements-cards a {
+        flex-direction: column;
+        width: 100%;
+    }
+}

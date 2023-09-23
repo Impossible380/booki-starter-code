@@ -1,7 +1,8 @@
 /****** Activités ***********/
 .activites {
-    width: 100%;
+    width: 95%;
     margin-block: 50px;
+    padding: 30px;
 }
 
 .activites-title {
@@ -18,4 +19,14 @@
 
 .activites-cards a {
     width: 22%;
+}
+
+@media (max-width: 768px) {
+    .activites-cards {
+        flex-direction: column;
+    }
+
+    .activites-cards a {
+        width: 90%;
+    }
 }

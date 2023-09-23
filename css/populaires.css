@@ -12,7 +12,6 @@
 @media (max-width: 1024px) {
     .populaires {
         width: 100%;
-        margin-top: 50px;
     }
 
     .populaires-cards {
@@ -23,5 +22,17 @@
 
     .populaires-cards a {
         width: 30%;
+    }
+}
+
+@media (max-width: 768px) {
+    .populaires-cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .populaires-cards a {
+        width: 100%;
     }
 }
