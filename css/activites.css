@@ -1,6 +1,6 @@
 /****** Activités ***********/
 .activites {
-    width: 95%;
+    width: 100%;
     margin-block: 50px;
     padding: 30px;
 }
@@ -21,12 +21,13 @@
     width: 22%;
 }
 
+
 @media (max-width: 768px) {
     .activites-cards {
         flex-direction: column;
     }
 
     .activites-cards a {
-        width: 90%;
+        width: 100%;
     }
 }

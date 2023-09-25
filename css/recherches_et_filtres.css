@@ -1,6 +1,8 @@
+/****** Recherches et filtres ***********/
 .recherche-and-filtres {
     padding: 20px;
     margin-block: 50px;
+    gap: 35px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -9,29 +11,25 @@
 form {
     display: flex;
     align-items: center;
-    margin-block: 15px;
 }
 
 .element-formulaire {
     padding: 15px;
     font-weight: 700;
     font-size: 18px;
-    border-width: 1px 0;
-    border-color: var(--main-bg-color);
-    border-style: solid;
 }
 
 form .map-marker {
     background-color: var(--main-bg-color);
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
-    border: 0;
+    border: var(--main-bg-color);
 }
 
 form input {
-    /* border: 1px solid var(--main-bg-color); */
+    border: 1px solid var(--main-bg-color);
     text-align: center;
-    width: 160px;
+    width: 200px;
 }
 
 form button {
@@ -39,13 +37,18 @@ form button {
     color: white;
     justify-content: center;
     align-items: center;
-    border: 0;
+    border: var(--main-color);
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
+    cursor: pointer;
 }
 
 form button:hover {
     background-color: blue;
+}
+
+form button .word p {
+    margin: 0;
 }
 
 form button .icon {
@@ -54,8 +57,7 @@ form button .icon {
 
 .barre-filtres {
     display: flex;
-    /* align-items: center; */
-    margin-block: 15px;
+    align-items: center;
     gap: 15px;
     flex-wrap: wrap;
 }
@@ -71,6 +73,7 @@ form button .icon {
     display: flex;
     align-items: center;
     padding-inline: 15px;
+    gap: 10px;
     height: 46px;
     border: 2px solid lightgray;
     border-radius: 25px;
@@ -79,16 +82,15 @@ form button .icon {
 
 .element-filtres a:hover {
     background-color: var(--filter-bg-color);
-    cursor: default;
 }
 
 .element-filtres a h3 {
     font-size: 17px;
-    width: 70%;
 }
 
 .icone-filtres {
-    width: 25%;
+    width: 22px;
+    height: 22px;
     text-align: center;
 }
 
@@ -106,7 +108,30 @@ form button .icon {
     border-radius: 14px;
 }
 
+@media (max-width: 1024px) {
+    .element-filtres a h3 {
+        font-size: 16px;
+    }
+}
+
 @media (max-width: 768px) {
+    form input {
+        width: 100%;
+    }
+
+    form button {
+        border-radius: 15px;
+        margin-left: -15px;
+    }
+
+    form button .icon {
+        display: initial;
+    }
+
+    form button .word {
+        display: none;
+    }
+
     .barre-filtres {
         flex-direction: column;
     }
@@ -117,17 +142,5 @@ form button .icon {
 
     .element-filtres a h3 {
         font-size: 14px;
-    }
-
-    form button {
-        border-radius: 15px;
-    }
-
-    form button .icon {
-        display: initial;
-    }
-
-    form button .word {
-        display: none;
     }
 }
