@@ -22,15 +22,17 @@ nav ul
     padding: 0;
     list-style-type: none;
     display: flex;
+    gap: 100px;
 }
 
 nav a
 {
-    margin-left: 100px;
+    margin-top: 0;
     font-size: 1.3em;
     color: #181818;
-    padding-block: 15px;
     text-decoration: none;
+    padding-top: 40px;
+    box-sizing: border-box;
 }
 
 nav a:hover
@@ -41,6 +43,7 @@ nav a:hover
 
 nav li
 {
+    margin: 0;
     font-size: 16px;
     text-align: center;
 }
