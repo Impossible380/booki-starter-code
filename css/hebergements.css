@@ -20,6 +20,10 @@
     width: 30%;
 }
 
+.hebergements .section-subtitle {
+    margin-top: 33px;
+}
+
 
 @media (max-width: 1024px) {
     .hebergements {
@@ -36,5 +40,17 @@
     .hebergements-cards a {
         flex-direction: column;
         width: 100%;
+    }
+
+    #card-1 {
+        order: -1;
+    }
+    
+    #card-2 {
+        order: 1;
+    }
+    
+    #card-5 {
+        order: -1;
     }
 }

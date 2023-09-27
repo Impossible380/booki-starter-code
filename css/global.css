@@ -39,7 +39,6 @@ a {
 }
 
 .section-subtitle {
-    margin-block: 20px;
     font-size: 18px;
 }
 
@@ -84,6 +83,7 @@ a {
 
     .hebergements-and-populaires section {
         border-radius: 0;
+        padding: 20px;
     }
 
     .main-container {

@@ -2,7 +2,7 @@
 header {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: flex-start;
 }
 
 #logo {
@@ -14,6 +14,7 @@ header {
 #logo img {
     width: 50%;
     height: 50%;
+    margin-block: 25px;
 }
 
 nav ul
@@ -25,27 +26,24 @@ nav ul
     gap: 100px;
 }
 
-nav a
-{
-    margin-top: 0;
-    font-size: 1.3em;
-    color: #181818;
-    text-decoration: none;
-    padding-top: 40px;
-    box-sizing: border-box;
-}
-
-nav a:hover
-{
-    color: var(--main-color);
-    border-top: 3px solid var(--main-color);
-}
-
-nav li
+nav ul li
 {
     margin: 0;
-    font-size: 16px;
+    padding-block: 10px;
     text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    color: #181818;
+    text-decoration: none;
+    box-sizing: border-box;
+    border-top: 2px solid white;
+}
+
+nav ul li:hover
+{
+    color: var(--main-color);
+    border-top: 2px solid var(--main-color);
 }
 
 @media (max-width: 768px) {
@@ -57,7 +55,6 @@ nav li
 
     #logo {
         justify-content: center;
-        margin-block: 25px;
     }
 
     nav {
@@ -66,18 +63,19 @@ nav li
 
     nav ul {
         justify-content: center;
+        gap: 0;
+        width: 100%;
     }
 
-    nav a
-    {
-        margin: 0;
+    nav ul li {
         width: 50%;
-        border-bottom: 3px solid var(--main-bg-color);
+        border-top: 0;
+        border-bottom: 2px solid var(--main-bg-color);
     }
 
-    nav a:hover
+    nav ul li:hover
     {
         border-top: 0;
-        border-bottom: 3px solid var(--main-color);
+        border-bottom: 2px solid var(--main-color);
     }
 }

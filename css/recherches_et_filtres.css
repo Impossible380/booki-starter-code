@@ -1,6 +1,5 @@
 /****** Recherches et filtres ***********/
 .recherche-and-filtres {
-    padding: 20px;
     margin-block: 50px;
     gap: 35px;
     display: flex;
@@ -8,15 +7,29 @@
     justify-content: space-between;
 }
 
+.recherche-and-filtres .section-subtitle {
+    margin: 0;
+}
+
+.recherche-and-filtres p {
+    margin: 0;
+}
+
 form {
     display: flex;
     align-items: center;
+    width: 400px;
+    border: 1px solid var(--main-bg-color);
+    border-radius: 15px;
 }
 
 .element-formulaire {
+    height: 100%;
     padding: 15px;
     font-weight: 700;
     font-size: 18px;
+    border-right: 0;
+    border-left: 0;
 }
 
 form .map-marker {
@@ -27,9 +40,8 @@ form .map-marker {
 }
 
 form input {
-    border: 1px solid var(--main-bg-color);
+    border: 0;
     text-align: center;
-    width: 200px;
 }
 
 form button {
@@ -47,11 +59,7 @@ form button:hover {
     background-color: blue;
 }
 
-form button .word p {
-    margin: 0;
-}
-
-form button .icon {
+form .button-icon {
     display: none;
 }
 
@@ -112,28 +120,41 @@ form button .icon {
     .element-filtres a h3 {
         font-size: 16px;
     }
+
+    .barre-filtres {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 }
 
 @media (max-width: 768px) {
+    .recherche-and-filtres {        
+        padding-inline: 20px;
+    }
+
+    form {
+        width: 100%;
+    }
+
     form input {
         width: 100%;
     }
 
     form button {
         border-radius: 15px;
-        margin-left: -15px;
     }
 
-    form button .icon {
+    form .button-icon {
         display: initial;
     }
 
-    form button .word {
+    form .button-word {
         display: none;
     }
 
-    .barre-filtres {
-        flex-direction: column;
+    .selection-filtres
+    {
+        width: 100%;
     }
 
     .element-filtres {

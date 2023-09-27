@@ -1,8 +1,8 @@
 @import url(global.css);
 @import url(header.css);
 @import url(recherches_et_filtres.css);
+@import url(cards.css);
 @import url(hebergements.css);
 @import url(populaires.css);
-@import url(cards.css);
 @import url(activites.css);
 @import url(footer.css);

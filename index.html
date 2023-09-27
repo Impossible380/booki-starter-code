@@ -19,7 +19,7 @@
         <!-- Début en-tête de page -->
         <header>
             <div id="logo">                    
-                <img src="images/logo/Booki.png" class="logo">
+                <img src="images/logo/Booki.png" alt="logo de Booki">
             </div>
             <nav>
                 <ul>
@@ -36,18 +36,14 @@
                     <h2 class="section-title">Trouvez votre hébergement pour des vacances de rêve</h2>
                     <p>En plein centre-ville ou en pleine nature</p>
                 </div>
-                <form method="get" action="">
-                    <div class="map-marker element-formulaire">
+                <form method="post">
+                    <label class="map-marker element-formulaire">
                         <i class="fa fa-location-dot" aria-hidden="true"></i>
-                    </div>
+                    </label>
                     <input value="Marseille, France" type="search" name="lieu" class="element-formulaire section-subtitle" />
-                    <button class="element-formulaire section-subtitle" type="submit">
-                        <div class="word">
-                            <p>Rechercher</p>
-                        </div>
-                        <div class="icon">
-                            <i class="fa fa-search" aria-hidden="true"></i>
-                        </div>
+                    <button class="element-formulaire section-subtitle button-word" type="submit">Rechercher</button>
+                    <button class="element-formulaire section-subtitle button-icon" type="submit">
+                        <i class="fa fa-search" aria-hidden="true"></i>
                     </button>
                 </form>
                 <div class="barre-filtres">
@@ -93,7 +89,7 @@
                         <h2 class="section-title">Hébergements à Marseille</h2>
                     </div>
                     <div class="hebergements-cards">
-                        <a href="#">
+                        <a href="#" id="card-1">
                             <article class="card">
                                 <img src="./images/hebergements/fred-kleber.jpg" alt="Image de la chambre d'hôtel montrant un lit">
                                 <div class="card-content">
@@ -112,7 +108,7 @@
                                 </div>
                             </article>
                         </a>
-                        <a href="#">
+                        <a href="#" id="card-2">
                             <article class="card">
                                 <img src="./images/hebergements/febrian-zakaria.jpg" alt="Image de la chambre d'hôtel montrant un lit">
                                 <div class="card-content">
@@ -169,7 +165,7 @@
                                 </div>
                             </article>
                         </a>
-                        <a href="#">
+                        <a href="#" id="card-5">
                             <article class="card">
                                 <img src="./images/hebergements/marcus-loke.jpg" alt="Image de la chambre d'hôtel montrant un lit">
                                 <div class="card-content">
@@ -325,19 +321,19 @@
             </div>
         </main>
         <footer>
-            <div class="footer-div">
+            <div>
                 <h3 class="section-subtitle">À propos</h3>
                 <p>Fonctionnement du site</p>
                 <p>Conditions générales</p>
                 <p>Données et confidentialité</p>
             </div>
-            <div class="footer-div">
-                <h3 class="section-subtitle">À propos</h3>
+            <div>
+                <h3 class="section-subtitle">Nos hébergements</h3>
                 <p>Charte qualité</p>
                 <p>Proposer votre hôtel</p>
             </div>
-            <div class="footer-div">
-                <h3 class="section-subtitle">À propos</h3>
+            <div>
+                <h3 class="section-subtitle">Assistance</h3>
                 <p>Centre d'aide</p>
                 <p>Nous contacter</p>
             </div>

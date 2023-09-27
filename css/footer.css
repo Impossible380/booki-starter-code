@@ -3,21 +3,26 @@ footer {
     display: flex;
     justify-content: space-between;
     background-color: var(--main-bg-color);
+    gap: 30px;
 }
 
-.footer-div {
+footer div {
     width: 30%;
-    padding-inline: 20px;
+    padding: 20px;
 }
 
+footer div .section-subtitle {
+    margin: 0;
+}
 
 @media (max-width: 768px) {
     footer {
-        padding: 0;
+        padding: 30px;
         flex-direction: column;
     }
 
-    .footer-div {
+    footer div {
+        padding: 0;
         width: 100%;
     }
 }
