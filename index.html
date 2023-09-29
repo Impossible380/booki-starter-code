@@ -14,25 +14,40 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
+<!--
+    Début BODY
+-->
 <body>
     <div class="main-container">
-        <!-- Début en-tête de page -->
+
+        <!--
+            Début HEADER
+        -->
         <header>
             <div id="logo">                    
                 <img src="images/logo/Booki.png" alt="logo de Booki">
             </div>
             <nav>
                 <ul>
-                    <li><a href="#">Hébergements</a></li>
-                    <li><a href="#">Activités</a></li>
+                    <li><a href="#hebergements-and-populaires">Hébergements</a></li>
+                    <li><a href="#activites">Activités</a></li>
                 </ul>
             </nav>
         </header>
-        <!-- Fin en-tête de page -->
+        <!--
+            Fin HEADER
+        -->
+
+        <!--
+            Début MAIN
+        -->
         <main>
-            <!-- Début première div majeure -->
-            <div class="recherche-and-filtres">
-                <div class="recherche-and-filtres-title">
+            
+            <!--
+                Début RECHERCHES ET FILTRES
+            -->
+            <div id="recherches-and-filtres">
+                <div class="recherches-and-filtres-title">
                     <h2 class="section-title">Trouvez votre hébergement pour des vacances de rêve</h2>
                     <p>En plein centre-ville ou en pleine nature</p>
                 </div>
@@ -82,9 +97,19 @@
                     <p>Plus de 500 logements sont disponibles dans cette ville</p>
                 </div>
             </div>
-            <!-- Fin première div majeure -->
-            <div class="hebergements-and-populaires">
-                <section class="hebergements">
+            <!--
+                Fin RECHERCHES ET FILTRES
+            -->
+
+            <!--
+                Début HEBERGEMENTS ET POPULAIRES
+            -->
+            <div id="hebergements-and-populaires">
+
+                <!--
+                    Début HEBERGEMENTS
+                -->
+                <section id="hebergements">
                     <div class="hebergements-title">
                         <h2 class="section-title">Hébergements à Marseille</h2>
                     </div>
@@ -206,7 +231,14 @@
                     </div>
                     <h3 class="section-subtitle">Afficher plus</h3>
                 </section>
-                <section class="populaires">
+                <!--
+                    Fin HEBERGEMENTS
+                -->
+                
+                <!--
+                    Début POPULAIRES
+                -->
+                <section id="populaires">
                     <div class="populaires-title">
                         <h2 class="section-title">Les plus populaires</h2>
                         <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
@@ -271,8 +303,19 @@
                         </a>
                     </div>
                 </section>
+                <!--
+                    Fin POPULAIRES
+                -->
+
             </div>
-            <div class="activites">
+            <!--
+                Fin HEBERGEMENTS ET POPULAIRES
+            -->
+
+            <!--
+                Début ACTIVITES
+            -->
+            <div id="activites">
                 <div class="activites-title">
                     <h2 class="section-title">Activités à Marseille</h2>
                 </div>
@@ -319,7 +362,18 @@
                     </a>
                 </div>
             </div>
+            <!--
+                Début ACTIVITES
+            -->
+
         </main>
+        <!--
+            Fin MAIN
+        -->
+
+        <!--
+            Début FOOTER
+        -->
         <footer>
             <div>
                 <h3 class="section-subtitle">À propos</h3>
@@ -338,7 +392,14 @@
                 <p>Nous contacter</p>
             </div>
         </footer>
+        <!--
+            Fin FOOTER
+        -->
+
     </div>
 </body>
+<!--
+    Fin BODY
+-->
 
 </html>

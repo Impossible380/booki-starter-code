@@ -1,5 +1,5 @@
 /****** Recherches et filtres ***********/
-.recherche-and-filtres {
+#recherches-and-filtres {
     margin-block: 50px;
     gap: 35px;
     display: flex;
@@ -7,11 +7,11 @@
     justify-content: space-between;
 }
 
-.recherche-and-filtres .section-subtitle {
+.recherches-and-filtres .section-subtitle {
     margin: 0;
 }
 
-.recherche-and-filtres p {
+.recherches-and-filtres p {
     margin: 0;
 }
 
@@ -128,7 +128,7 @@ form .button-icon {
 }
 
 @media (max-width: 768px) {
-    .recherche-and-filtres {        
+    #recherches-and-filtres {        
         padding-inline: 20px;
     }
 

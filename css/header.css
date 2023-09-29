@@ -29,7 +29,7 @@ nav ul
 nav ul li
 {
     margin: 0;
-    padding-block: 10px;
+    padding-top: 10px;
     text-align: center;
     cursor: pointer;
     width: 100%;
@@ -69,6 +69,8 @@ nav ul li:hover
 
     nav ul li {
         width: 50%;
+        padding-top: 0;
+        padding-bottom: 10px;
         border-top: 0;
         border-bottom: 2px solid var(--main-bg-color);
     }

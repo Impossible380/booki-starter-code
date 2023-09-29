@@ -1,5 +1,5 @@
 /****** Hebergements ***********/
-.hebergements {
+#hebergements {
     width: 65%;
 }
 
@@ -20,20 +20,20 @@
     width: 30%;
 }
 
-.hebergements .section-subtitle {
+#hebergements .section-subtitle {
     margin-top: 33px;
 }
 
 
 @media (max-width: 1024px) {
-    .hebergements {
+    #hebergements {
         width: 100%;
     }
 }
 
 
 @media (max-width: 768px) {
-    .hebergements {
+    #hebergements {
         background-color: white;
     }
 
